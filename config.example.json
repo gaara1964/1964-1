@@ -1,0 +1,80 @@
+{
+  "brand_name": "Manager Bot",
+  "accent_color": 5865487,
+  "currency": "USD",
+  "ticket_category_name": "TICKETS",
+  "staff_category_name": "STAFF ONLY",
+  "support_role_name": "Support",
+  "moderator_role_name": "Moderator",
+  "customer_role_name": "Verified Customer",
+  "member_role_name": "Member",
+  "unverified_role_name": "Unverified",
+  "channels": {
+    "ticket_panel": "ticket-panel",
+    "ticket_logs": "ticket-logs",
+    "roles": "roles",
+    "staff_dashboard": "staff-dashboard",
+    "mod_logs": "mod-logs",
+    "order_management": "order-management",
+    "products": "products",
+    "announcements": "announcements",
+    "ai_memory": "bot-memory",
+    "ai_instructions": "bot-instructions",
+    "ai_knowledge": "bot-knowledge",
+    "bot_chat": "bot-chat"
+  },
+  "role_menus": {
+    "notifications": {
+      "label": "Notification Roles",
+      "placeholder": "Choose the alerts you want",
+      "roles": ["Announcements", "Deals Alerts", "Giveaway Alerts", "Tournament Alerts"]
+    },
+    "games": {
+      "label": "Gaming Roles",
+      "placeholder": "Choose your games",
+      "roles": ["Valorant", "Fortnite", "Minecraft", "GTA", "Call of Duty"]
+    },
+    "regions": {
+      "label": "Region Roles",
+      "placeholder": "Choose your region",
+      "roles": ["Asia", "Europe", "North America"]
+    }
+  },
+  "ticket_types": {
+    "support": {
+      "label": "Support",
+      "emoji": "🎫",
+      "description": "General server or account help",
+      "questions": ["What do you need help with?", "Share any proof, links, or screenshots if needed."]
+    },
+    "purchase": {
+      "label": "Purchase Help",
+      "emoji": "🛒",
+      "description": "Buying, delivery, or product questions",
+      "questions": ["Which product are you asking about?", "Do you already have an order ID?"]
+    },
+    "report": {
+      "label": "Report Issue",
+      "emoji": "🚨",
+      "description": "Report a user, scam, bug, or rule break",
+      "questions": ["Who or what are you reporting?", "What happened? Include proof if possible."]
+    },
+    "business": {
+      "label": "Business",
+      "emoji": "🤝",
+      "description": "Partnerships, bulk orders, or business requests",
+      "questions": ["What business request do you have?", "What is the best way for staff to follow up?"]
+    }
+  },
+  "faq": {
+    "how_to_buy": "Open a Purchase Help ticket and staff will guide you through the order process.",
+    "delivery_time": "Delivery time depends on the product. Staff will confirm timing before payment.",
+    "refunds": "Refunds and replacements are handled by staff case-by-case. Never share passwords or sensitive information.",
+    "support": "Open a support ticket and describe the issue clearly with screenshots or proof where possible."
+  },
+  "banned_words": ["scamlink.example", "free-nitro.example"],
+  "blocked_invites": true,
+  "welcome_banner_url": "",
+  "welcome_embed_color": 5865487,
+  "welcome_start_here": "🎭  **Grab your roles** in <#verify> to unlock the rest of the server\n💬  **Drop a quick intro** in <#general> so we can get to know you\n📜  **Read the rules** in <#rules> — keep it chill"
+}
